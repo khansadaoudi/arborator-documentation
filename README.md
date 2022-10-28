@@ -1,5 +1,3 @@
-
-
 ## Welcome to Arborator Grew Documentation
 
 This is the official user documentation for **[Arborator Grew](https://arboratorgrew.elizia.net/#/)**
@@ -65,7 +63,7 @@ The required fields to create new project on Arborator-Grew in descending order 
 - The **Description**, it is an overview of the project that outlines its different details. A good description is extremely helpful for the community who are looking for collaboration.
 - The **Project Visibility**, projects may be Private (visible and editable only to you and your collaborators) or Visible (only visible) or Open (everyone can contribute).
 - **Show All Trees**, this option enable you to see other's trees.
-- **Mode exercice**, this will set up the exercice propreties we will talk about it later.
+- **Mode exercice**, this will set up the exercice propreties, explained [here](#exercise-mode).
 
 Once you have provided the required information alongside your project, click on “Create” and your project will be created.
 
@@ -119,7 +117,7 @@ To get started with the treebank annotation, you need to import `CoNLL` file as 
 </div>
 
 
-### Functionality related to the annotation
+### Annotation Functionnalities
 
 There is a toolbar located on the top  left of the document area. From it the user can perform these actions:
 
@@ -137,6 +135,7 @@ There is a toolbar located on the top  left of the document area. From it the us
 </div>
 
 
+## Advanced Options
 
 ### Grew search
 
@@ -175,6 +174,39 @@ summarizes all dependencies within a project, based on the dependency relation.
 !> Having this is a great way to look for
 rare structures and potential errors inside a treebank. The user can access
 directly the trees that match the negative pattern and update it. 
+
+## Classroom
+
+**[Arborator-Grew](https://arboratorgrew.elizia.net/#)** comes with the concept of the **Classroom**, which is a  great way to teach the undergraduate and graduate students **syntax** using treebank annotation. 
+
+?> Thus, **[Arborator-Grew](https://arboratorgrew.elizia.net/#)** allows the configuration of Exercise mode.
+
+### Exercise mode
+
+This option is set up while the creation of project or using the setting button (Gear button). 
+
+!> Teachers need to have an [administrator](#collaborating-in-projects) status in the project in order to set up an exercise.
+
+For each sample of the project you can configure the exercise mode and determine a **base tree** per sentence that will be used to feedback and calculate the students' scores. The details of different exercise mode are explained below: 
+
+| Exercise level     |property  |
+| ------------------- |--------------------------------------------------------------------------  |
+| `1:teacher_visible`| <div style="width:100%,">the students can see the reference tree, but cannot modify it directly – they have to redraw the tree from an empty annotation   </div>    |
+| `2:local_feedback`|        |
+|`3:global_feedback`|         |
+|`4:no_feedback`|<div style="width:100%,"> where only the teacher can receive the student’s score.</div>|
+
+?> The teacher can export the results of the students into spreadsheets.
+
+
+
+
+
+
+
+
+
+
 
 
 
