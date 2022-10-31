@@ -67,6 +67,19 @@ The required fields to create new project on Arborator-Grew in descending order 
 
 Once you have provided the required information alongside your project, click on “Create” and your project will be created.
 
+## Project Configuration
+Once the project is created the adminstrator can configure the following settings:
+
+- The visibility control, the adminstrator can update the visibility of the project.
+- The adminstartor can also update trees' visibility, Exercise mode, Diff mode.
+- The adminstartor can select user to be used as a reference for the comparaison.
+- In order to maximize the usefulness of the project, you can upload cover image and add description.
+
+<div style="text-align:center">
+<img src="assets/images/8-project-configuration.png" alt="drawing" width="900"/>
+</div>
+
+
 ## Collaborating in projects 
 
 Collaborative annotation is one of powerful features of Arborator-Grew. It provides a way to multiple users to share the access of the project so they can work together.
